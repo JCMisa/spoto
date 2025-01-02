@@ -1,11 +1,11 @@
 import Footer from "@/components/custom/Footer";
+import SearchComponent from "@/components/custom/SearchComponent";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="px-7">
-      {/* Search Form */}
-      <h1>Search form</h1>
+      <SearchComponent />
 
       <h3 className="text-2xl sm:text-4xl font-bold text-gray-500 pt-16 pb-16 text-center uppercase tracking-wide">
         There is always a spot available
